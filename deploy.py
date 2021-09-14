@@ -1,8 +1,10 @@
-from solcx import compile_standard
+from solcx import compile_standard, install_solc
 import json
 import web3 from Web3
 import os
 from dotenv import load_dotenv
+
+install_solc("0.6.0")
 
 load_dotenv()
 
