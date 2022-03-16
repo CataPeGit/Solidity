@@ -15,4 +15,4 @@ def get_weth():
 
 
 def main():
-    pass
+    get_weth()
